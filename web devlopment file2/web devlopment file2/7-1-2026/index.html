@@ -1,0 +1,102 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css">
+    
+ <style>
+    h2 {
+        background-color: aqua;
+    }
+
+    /* simple selectors */
+
+    /* for id we use # */
+    
+    #first{
+        color: blueviolet;
+    }
+
+    /* for class we use .  */
+    
+    .second{
+        color: aqua;
+    }
+
+   
+        /* 1️⃣ Descendant selector */
+        div p {
+            color: blue;
+        }
+
+        /* 2️⃣ Child selector */
+        div > p {
+            background-color: lightyellow;
+            padding: 5px;
+        }
+
+        /* 3️⃣ Adjacent sibling selector */
+        div + ul {
+            border: 2px solid green;
+            padding: 10px;}
+
+             /* 4️⃣ General sibling selector */
+        div ~ p {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Bonus: styling list inside div */
+        div ol li {
+            color: purple;
+        }
+ </style>
+
+</head>
+<body>
+
+    <!-- inline -->
+
+    <h1 style="background-color: blue;">welcome to my world</h1>
+
+    <!-- internal -->
+     <!-- we declare in the head tag by using tag names  -->
+    <h2>internal in css</h2>
+
+    <!-- external -->
+
+    <!-- we declare in the css stylesheet by using tags -->
+
+    <h3>external in css</h3>
+
+    <p id="first">hello team good morning</p>
+
+    <h4 class="second">hi team </h4>
+
+    <!-- combinator selectors  -->
+
+    <div>
+        <p>paragraph1 for css</p>
+        <p>paragraph2 for css</p>
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+
+    </div>
+
+    <ul>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+    </ul>
+
+    <p>end of the stage</p>
+    
+</body>
+</html>
+ 

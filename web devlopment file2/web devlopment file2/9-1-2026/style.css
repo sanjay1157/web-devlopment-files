@@ -1,0 +1,15 @@
+  /* Firefox support
+        p::selection {
+            color: #ff00c8;
+            background-color: blueviolet;
+        } */
+
+
+        /* high priorities in css */
+
+        /* !important
+        Inline 
+        Id selector 
+        class selector 
+        Element selector 
+        universal selector */

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        button {
+            color: blue;
+        }
+
+        .first {
+            background-color: #ff00c8;
+            color: white;
+        }
+
+        .first:hover {
+            background-color: red;
+        }
+
+        .second {
+            background-color: grey;
+            color: purple;
+        }
+
+        .second:hover {
+            background-color: blueviolet;
+        }
+
+        /* Selection works only with color & background-color */
+        p::selection {
+            color: #ff00c8;
+            background-color: blueviolet;
+        }
+
+        /* Firefox support
+        p::-moz-selection {
+            color: #ff00c8;
+            background-color: blueviolet;
+        } */
+
+        .line ::selection {
+
+            color: #ff00c8;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1 style="color: black; background-color: greenyellow;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quam eligendi et unde illo dolorum blanditiis architecto saepe.
+        Ea corporis voluptatem rerum vero nesciunt soluta neque quis dolor doloremque eius.
+    </h1>
+
+    <h1 style="color: blanchedalmond; background-color: brown; font-size: large;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, eligendi.
+    </h1>
+
+    <h1 style="color: purple; background-color: gray; font-size: large; font-family: system-ui,
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;">
+        Mahendra Singh Dhoni (born 7 July 1981) is an Indian professional cricketer who plays as a right-handed batter
+        and a wicket-keeper. Widely regarded as one of the most prolific wicket-keeper batsmen and captains,
+        he represented the Indian cricket team and was the captain of the side in limited overs formats from
+        2007 to 2017 and in Test cricket from 2008 to 2014.
+    </h1>
+
+    <h2 style="text-transform: capitalize; font-size: larger; font-family: 'Franklin Gothic Medium',
+        'Arial Narrow', Arial, sans-serif; color: blue; background-color: whitesmoke; text-align: center;">
+        Mahendra Singh Dhoni (born 7 July 1981) is an Indian professional cricketer who plays as a right-handed batter
+        and a wicket-keeper.
+    </h2>
+
+     <p class="line">
+        Indian professional cricketer who plays as a right-handed batter and a wicket-keeper.
+        Widely regarded as one of the most prolific wicket-keeper batsmen and captains,
+        he represented the Indian cricket team and was the captain of the side in limited overs formats
+        from 2007 to 2017 and in Test.
+    </p>
+
+
+
+    <div>
+        <button class="first">first</button>
+    </div>
+
+    <div>
+        <button class="second">second</button>
+    </div>
+
+    <div>
+        <button class="first">first</button>
+    </div>
+
+    <div>
+        <button class="second">second</button>
+    </div>
+
+    <div>
+        <button class="first">first</button>
+    </div>
+
+    <div>
+        <button class="second">second</button>
+    </div>
+
+    
+
+</body>
+</html>

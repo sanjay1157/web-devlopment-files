@@ -72,21 +72,21 @@ console.log(stu2)
 // //** class name must be start with capital letter.
 // // in class we need to pass parameters to constructor.
 
-// class Emp {
+class Emp {
 
-//     constructor (a,b,c) {
+    constructor (a,b,c) {
 
-//         this.name=a;
-//         this.age=b;
-//         this.role=c;
-//     }
-// }
+        this.name=a;
+        this.age=b;
+        this.role=c;
+    }
+}
 
-// let d = new Emp("ayan","4","child")
-// console.log(d)
+let d = new Emp("ayan","4","child")
+console.log(d)
 
-// let emp1 = new Emp ("mani","32","Lead")
-// console.log(emp1)
+let emp1 = new Emp ("mani","32","Lead")
+console.log(emp1)
 
 
 // //copying of objects
